@@ -1,0 +1,308 @@
+html[lang="ru-RU"] body,
+html[lang="ru-RU"] button,
+html[lang="ru-RU"] input,
+html[lang="ru-RU"] select,
+html[lang="ru-RU"] textarea {
+	font-family: "Roboto", Helvetica, "Segoe UI", Arial, sans-serif;
+  font-style: normal;
+}
+  body {
+  padding-top: 10px;
+}
+h1 a{
+  font-size: 3.0rem;
+  font-weight: normal;
+}
+h3 a{
+  font-size: 2.0rem;
+  font-weight: normal;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.margin36{
+	margin-bottom: 36px;
+}
+.header{
+  min-height:100px;
+  background-color: #fff;
+  font-size: 1.3rem;
+
+}
+.place{
+  min-height:500px;
+  padding-bottom:36px;
+}
+.align_iustify{
+  text-align: justify;
+}
+
+.footer{
+  min-height:140px;
+  background-color: #f89406;
+  color:#fff;
+  padding-top: 36px;
+  font-size: 1.2rem;
+}
+
+.menu{
+  padding-top: 0px;
+  background-color: #fff;
+ -webkit-box-shadow: 0px 8px 35px -13px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 35px -13px rgba(0,0,0,0.75);
+box-shadow: 0px 8px 35px -13px rgba(0,0,0,0.75);
+}
+
+
+a{
+  color:#000;
+}
+a:hover{
+  color:#000;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-brand {
+    color: rgba(119, 119, 119, 1);
+}
+#custom-bootstrap-menu.navbar-default {
+    font-size: 14px;
+    background-color: rgba(255, 255, 255, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(119, 119, 119, 1);
+    background-color: rgba(248, 248, 248, 0);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(51, 51, 51, 1);
+    background-color: rgba(255, 255, 255, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(85, 85, 85, 1);
+    background-color: rgba(252, 185, 65, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #FF0000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #FF0000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FF0000;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #ffffff;
+}
+
+.block_new_main{
+  padding:14px;
+  margin:14px;
+  min-height:446px;
+  height:446px;
+  -webkit-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 9px -2px rgba(0,0,0,0.75);
+}
+.block_new_main:hover{
+  -webkit-box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 19px -2px rgba(0,0,0,0.75);
+}
+
+.par-block1{
+  background: url(../../img/8.jpg);
+  height:400px;
+  width:100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+ul.ovt {
+    text-align: center;
+    margin-top:36px;
+    margin-bottom:36px;
+}
+ul.ovt li {
+    list-style: none;
+    display: inline-table;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.hidden{
+opacity:0;
+}
+.visible{
+opacity:1;
+}
+
+.navbar-brand {
+    min-height: 110px;
+    padding: 0px 0px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.post-image {
+    position: relative;
+    display: block;
+    width: 100%;
+    max-height: 250px;
+    height: 250px;
+}
+
+.post-thumbnail_back {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+/*--------------------------------------------------------------
+ Menu
+--------------------------------------------------------------*/
+#cssmenu,
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+	border: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+#cssmenu {
+	min-height: 30px;
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0px solid;
+	width: auto;
+  float: right;
+}
+#cssmenu,
+#cssmenu > ul > li > ul > li a:hover {
+	background-color: #fff;
+}
+#cssmenu > ul {
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+}
+#cssmenu > ul > li {
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+	float: left;
+	display: block;
+	position: relative;
+}
+#cssmenu > ul > li > a {
+	outline: none;
+	display: block;
+	position: relative;
+	padding: 12px 20px;
+	text-align: center;
+	text-decoration: none;
+	font-weight: normal;
+	color: #000;
+}
+#cssmenu > ul > li > a:hover {
+  background-color: #fff;
+	color: #000;
+}
+#cssmenu > ul > li > a:after {
+	content: '';
+	position: absolute;
+	top: -1px;
+	bottom: -1px;
+	right: -2px;
+	z-index: 99;
+}
+
+#cssmenu ul li.has-sub:hover > a:after {
+	top: 0;
+	bottom: 0;
+}
+#cssmenu > ul > li.has-sub > a:before {
+	content: '';
+	position: absolute;
+	top: 18px;
+	right: 6px;
+	border: 5px solid transparent;
+	border-top: 5px solid #000;
+}
+#cssmenu > ul > li.has-sub:hover > a:before {
+	top: 19px;
+}
+#cssmenu ul li.has-sub:hover > a {
+	background-color: #fff;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	top: -1px;
+	z-index: 999;
+}
+#cssmenu ul li.has-sub:hover > ul,
+#cssmenu ul li.has-sub:hover > div {
+	display: block;
+}
+#cssmenu ul li.has-sub > a:hover {
+	background-color: #fff;
+  color:#000;
+}
+#cssmenu ul li > ul,
+#cssmenu ul li > div {
+	display: none;
+	width: auto;
+	position: absolute;
+	top: 38px;
+	padding: 10px 0;
+	background: #ffffff;
+	border-radius: 2px 2px 2px 2px;
+	z-index: 999;
+  -webkit-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 6px 0px rgba(0,0,0,0.75);
+}
+#cssmenu ul li > ul {
+	width: 200px;
+}
+#cssmenu ul li > ul li {
+	display: block;
+	list-style: inside none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+#cssmenu ul li > ul li a {
+	outline: none;
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: 8px 20px;
+	font: 10pt Arial, Helvetica, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+#cssmenu ul ul a:hover {
+	color: #000;
+}
+#cssmenu > ul > li.has-sub > a:hover:before {
+	border-top: 5px solid #000;
+}
